@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #f3e5d8;
+}
+@font-face {
+    font-family: outfit;
+    src: url("./assets/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: youngSerif;
+    src: url("./assets/YoungSerif-Regular.ttf");
+}
+hr{
+    width: 90%;
+    margin: auto;
+    color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+}
+#recipe{
+    width: 50%;
+    padding: 25px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+}
+#recipe img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1,h3,h6,p,li,td{
+    margin: 15px;
+}
+h1,h3,h6{
+    font-family: youngSerif;
+}
+h1{
+    font-size: 36px;
+}
+h3{
+    font-size: 26px;
+    color: #894a3b;
+}
+h6{
+    color: #6d2040;
+    font-size: 16px;
+}
+p,li,td{
+    color: #817d7a;
+    font-family: outfit;
+    line-height: 2rem;
+}
+b{
+    color: #64635e;
+    font-weight: 600;
+}
+table{
+    width: 98%;
+    margin: auto;
+}
+td{
+    border-bottom: 1px solid #e0e0e0;
+}
+td:nth-child(1){
+    color: #817d7a;
+}
+td:nth-child(2){
+    color: #894a3b;
+    font-weight: 600;
+}
+@media screen and (max-width:500px) {
+    #recipe{
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 0px;
+    }
+    #recipe img{
+        width: 100%;
+        border-radius: 0px;
+    }
+}

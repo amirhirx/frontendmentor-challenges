@@ -1,0 +1,58 @@
+body{
+    background: hsl(0, 0%, 8%);
+    font-family: inter;
+    color:  hsl(0, 0%, 100%);
+}
+@font-face {
+    font-family: inter;
+    src: url("./asset/Inter-VariableFont_slnt\,wght.ttf");
+}
+#card{
+    width: 25%;
+    margin: 50px auto;
+    padding: 5px 0px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    text-align: center;
+}
+#avatar{
+    width: 20%;
+    margin: 15px auto;
+    border-radius: 100%;
+}
+#card h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+#nation{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+#bio{
+    font-weight: 400;
+}
+#nation,#bio{
+    font-size: 14px;
+}
+.link{
+    width: 80%;
+    padding: 8px;
+    margin: 15px auto;
+    border-radius: 5px;
+    color:  hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 20%);
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    transition: 0.5s all;
+}
+.link:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+@media screen and (max-width:600px){
+    #card{
+        width: 90%;
+        margin: 50px auto;
+    }
+}

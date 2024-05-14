@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: hsl(275, 100%, 97%);
+    font-family: workSans;
+}
+@font-face {
+    font-family: workSans;
+    src: url("./assets/WorkSans-VariableFont_wght.ttf");
+}
+#backgroundPattern{
+    width: 100%;
+    background: url("./assets/background-pattern-desktop.svg"), hsl(275, 100%, 97%);  
+}
+#faq{
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    background: hsl(0, 0%, 100%);   
+    transform: translateY(100px);
+    border-radius: 15px;
+}
+h1{
+    margin: 25px 5px;
+    font-size: 48px;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+    display: inline;
+}
+.quiz{
+    margin: 25px 1px;
+}
+.quiz h3{
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    display: inline;
+}
+.quiz .accordionIcon{
+    width: 25px;
+    transform: translateY(25%);
+}
+.quiz p{
+    font-weight: 400;
+    padding: 10px;
+    color: hsl(292, 16%, 49%);
+    display: none;
+}
+@media screen and (max-width:760px) {
+    #backgroundPattern{
+        background: url("./assets/background-pattern-mobile.svg"), hsl(275, 100%, 97%);
+    }
+    #faq{
+        width: 80%;
+    }
+}

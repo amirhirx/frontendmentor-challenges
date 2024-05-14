@@ -1,0 +1,37 @@
+/*Add Font Outfit */
+body{
+    background: hsl(212, 45%, 89%);
+    font-family: outfit;
+}
+.container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#qr-code{
+    width: min-content;
+    padding: 15px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #cfdbe9;
+}
+#qr-code img{
+    width: 256px;
+    border-radius: 10px;
+}
+#qr-code h3{
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+#qr-code p{
+    font-weight: 400;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+@font-face {
+    font-family: outfit;
+    src: url("./assets/Outfit-VariableFont_wght.ttf");
+}

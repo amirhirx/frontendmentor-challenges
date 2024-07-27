@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: redhat, sans-serif;
+    background: #D6E1FF;
+}
+@font-face {
+    font-family: redhat;
+    src: url("./RedHatDisplay-VariableFont_wght.ttf");
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.card{
+    width: 22rem;
+    margin: auto;
+    background: #fff;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card__thumb{
+    width: 22rem;
+    height: 12rem;
+    background: url("./images/illustration-hero.svg");
+    background-size: cover;
+    background-position: center;
+}
+.card__details{
+    width: 22rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+.card__title{
+    margin: 1rem 0;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #2B3656;
+}
+.card__text{
+    max-width: 18rem;
+    margin: 0.5rem auto 1.5rem auto;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.card__price{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card__price__icon{
+    margin-right: 1rem;
+}
+.card__price__label{
+    color: hsl(224, 23%, 55%);
+}
+.card__price__label b{
+    color: #2B3656;
+}
+.card__price__link{
+    color: #6559D5;
+    font-weight: 600;
+}
+.card__payment{
+    width: 18rem;
+    padding: 0.8rem 0;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: #382AE1;
+    border-radius: 0.5rem;
+}
+.card__cancel{
+    margin: 1.5rem;
+    display: block;
+    text-decoration: none;
+    color: #2B3656;
+}

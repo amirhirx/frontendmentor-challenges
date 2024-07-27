@@ -1,0 +1,74 @@
+body{
+    max-width: 100%;
+    height: 100vh;
+    color: #2b2d3a;
+    background: #19a1ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    /* Family: Kumbh Sans */
+    position: relative;
+    overflow: hidden;
+}
+*::selection{
+    color: #fff;
+    background: #19a1ad;
+}
+.card{
+    width: 18rem;
+    padding: 1rem 1rem;
+    background-color: #fff;
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: 100% 8rem;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+}
+.profile{
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-top: 4.5rem;
+    border:8px solid #fff;
+    border-radius: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.25rem;
+}
+.old{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.25rem;
+}
+.location{
+    margin: 0;
+    font-weight: 400;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.data__item{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.data__item h4{
+    margin: 0.25rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.data__item h5{
+    margin: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}

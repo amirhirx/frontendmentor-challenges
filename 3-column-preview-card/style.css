@@ -1,0 +1,100 @@
+/* 
+    Font Weight 400 ==> Lexed Deca
+    Font Weight 700 ==> Big Shoulders Display
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    background: #f2f2f2;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    color: #fff;
+    padding: 5rem 2rem 3rem;
+}
+.card:first-child{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.card:last-child{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.card img, .card h2, .card p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card h2{
+    font-weight: 700;
+}
+.card p{
+    max-width: 14rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.card a{
+    text-decoration: none;
+    padding: 0.8rem 1.2rem;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: 0.3s all ease;
+}
+.card a:hover{
+    color: #fff;
+    background: transparent;
+}
+.sedans{
+    background: #e28525;
+}
+.sedans a{
+    color: #e28525;
+}
+.suvs{
+    background: #016972;
+}
+.suvs a{
+    color: #016972;
+}
+.luxury{
+    background: #00403f;
+}
+.luxury a{
+    color: #00403f;
+}
+@media screen and (max-width:1000px){
+    body{
+        padding: 1rem 0;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        border-radius: 0 !important;
+    }
+    .card:first-child{
+        border-top-left-radius: 0.5rem !important;
+        border-top-right-radius: 0.5rem !important;
+    }
+    .card:last-child{
+        border-bottom-left-radius: 0.5rem !important;
+        border-bottom-right-radius: 0.5rem !important;
+    }
+}

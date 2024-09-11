@@ -17,3 +17,4 @@ Challenges help you improve your skills!
 | Result Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/results-summary/) |
 | Order Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/order-summary/) |
 | Profile Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/profile-card/) |
+| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |

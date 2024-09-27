@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcffff;
+    background: #0d1a2d;
+}
+@font-face {
+    font-family: outfit;
+    src: url("./font/Outfit-VariableFont_wght.ttf");
+}
+.card{
+    width: 20rem;
+    padding: 1.25rem;
+    background: #15273f;
+}
+.thumb{
+    width: 100%;
+}
+.card, .thumb{
+    border-radius: 0.8rem;
+}
+.card h2, p{
+    margin: 0.8rem 0;
+}
+.card p, span{
+    color: #89a0c0;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+.card-middle span{
+    display: flex;
+    align-items: center;
+}
+.card-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.card-middle span img{
+    margin: 0 0.5rem;
+}
+.price{
+    color: #4abac5;
+    font-weight: 700;
+}
+.card-bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.card-bottom img{
+    width: 2rem;
+    margin: 0 0.5rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+.name{
+    color: #fcffff;
+    font-weight: 700;
+}

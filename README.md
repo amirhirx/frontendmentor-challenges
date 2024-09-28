@@ -7,14 +7,15 @@ Challenges help you improve your skills!
 🌟It's a great way to grow and gain confidences😊
 
 ## List of challenges
-| Name | Live preview |
-| --- | ------ |
-| Recipe Page | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/recipe-page/) |
-| Qr Code | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/qr-code/) |
-| Social Link Profile | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/social-link-profile/) |
-| Blog Preview Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/blog-preview-card/) | 
-| Faq Accordion | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/faq-accordion/) |
-| Result Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/results-summary/) |
-| Order Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/order-summary/) |
-| Profile Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/profile-card/) |
-| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |
+| Number | Name | Live preview |
+| - | - | - |
+|1| Recipe Page | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/recipe-page/) |
+|2| Qr Code | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/qr-code/) |
+|3| Social Link Profile | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/social-link-profile/) |
+|4| Blog Preview Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/blog-preview-card/) | 
+|5| Faq Accordion | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/faq-accordion/) |
+|6| Result Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/results-summary/) |
+|7| Order Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/order-summary/) |
+|8| Profile Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/profile-card/) |
+|9| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |
+|10| NFT preview card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/nft-preview-card) |

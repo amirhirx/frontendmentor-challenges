@@ -19,3 +19,4 @@ Challenges help you improve your skills!
 |8| Profile Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/profile-card/) |
 |9| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |
 |10| NFT preview card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/nft-preview-card) |
+|11| Huddle landing page| [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/huddle-landing-page) |

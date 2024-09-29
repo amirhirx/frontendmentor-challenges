@@ -1,4 +1,7 @@
 # Frontendmentor-challenges
+
+<img src="frontendmentor-logo.png" width="300">
+
 Here are front-end challenges from [Frontendmentor.io](https://frontendmentor.io)👨‍💻
 
 Challenges help you improve your skills!

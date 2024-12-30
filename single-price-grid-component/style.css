@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: karla;
+    src: url("./Karla-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: karla, sans-serif;
+    background: #E6EFF6;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-grid-container {
+    width: 38rem;
+    margin: auto;
+    background: #fff;
+    border-radius: 0.45rem;
+    overflow: hidden;
+}
+
+.top-grid {
+    padding: 2rem;
+}
+
+.top-grid h2,
+h3,
+p {
+    margin: 0.25rem;
+}
+
+.top-grid h2 {
+    color: #2BB3B1;
+    font-size: 1.5em;
+}
+
+.top-grid h3 {
+    color: #BFDF32;
+    font-size: 1.1em;
+}
+
+.top-grid p {
+    color: #b9bec7;
+    line-height: 1.5rem;
+}
+
+.bottom-grid {
+    display: flex;
+}
+
+.subs-grid,
+.whyus-grid {
+    width: 50%;
+    padding: 1.8rem;
+    color: #fff;
+}
+
+.subs-grid {
+    background: #2BB3B1;
+}
+
+.price-label {
+    margin: 0.5rem 0;
+    font-size: 0.9em;
+    color: #ffffff98;
+}
+
+.price-label b {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.signup {
+    background: #bfdf32;
+    display: block;
+    margin: 2rem 0;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.whyus-grid {
+    background: #4ABEBD;
+}
+
+.whyus-grid ul {
+    list-style: none;
+}
+
+.whyus-grid li {
+    line-height: 1.5rem;
+    color: #ffffff98;
+}
+
+@media screen and (max-width:700px) {
+    .price-grid-container{
+        width: 80%;
+    }
+    .bottom-grid{
+        flex-direction: column;
+    }
+    .subs-grid, .whyus-grid{
+        width: 100%;
+    }
+}

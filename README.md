@@ -23,3 +23,4 @@ Challenges help you improve your skills!
 |9| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |
 |10| NFT preview card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/nft-preview-card) |
 |11| Huddle landing page| [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/huddle-landing-page) |
+|12| Single price grid component |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/single-price-grid-component)

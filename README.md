@@ -21,6 +21,7 @@ Challenges help you improve your skills!
 |7| Order Summary | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/order-summary/) |
 |8| Profile Card | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/profile-card/) |
 |9| 3 Column Preview Card |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/3-column-preview-card) |
-|10| NFT preview card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/nft-preview-card) |
-|11| Huddle landing page| [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/huddle-landing-page) |
-|12| Single price grid component |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/single-price-grid-component)
+|10| NFT Preview Card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/nft-preview-card) |
+|11| Huddle Landing Page| [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/huddle-landing-page) |
+|12| Single Price Grid Component |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/single-price-grid-component) |
+|13| News Homepage |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/news-homepage) |

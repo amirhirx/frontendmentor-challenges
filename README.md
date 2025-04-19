@@ -25,3 +25,4 @@ Challenges help you improve your skills!
 |11| Huddle Landing Page| [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/huddle-landing-page) |
 |12| Single Price Grid Component |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/single-price-grid-component) |
 |13| News Homepage |[Live Preview](https://amirhirx.github.io/frontendmentor-challenges/news-homepage) |
+|14 | Stats Preview Card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/stats-preview-card) |

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/images/favicon-32x32.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <div class="success-popup">
+            <div>
+                <img src="assets/images/icon-success-check.svg" alt="Success" />
+                <h3>Message sent!</h2>
+            </div>
+            <p>Thanks for completing the form. wel'll be in touch soon!</p>
+        </div>
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="name-div">
+                        <div class="first-name-div">
+                            <label for="first-name"> First Name </label>
+                            <input type="text" id="first-name" />
+                            <label
+                                class="warn"
+                                id="first-name-warn"
+                                for="first-name"
+                                >This field is required</label
+                            >
+                        </div>
+                        <div class="last-name-div">
+                            <label for="last-name"> Last Name </label>
+                            <input type="text" id="last-name" />
+                            <label
+                                class="warn"
+                                id="last-name-warn"
+                                for="last-name"
+                                >This field is required</label
+                            >
+                        </div>
+                    </div>
+                    <div class="email-div">
+                        <div class="email-address">
+                            <label for=""> Email Address</label>
+                            <input type="email" id="email" />
+                            <label class="warn" id="email-warn" for="email"
+                                >Please enter a valid email address</label
+                            >
+                        </div>
+                    </div>
+                    <div>
+                        <div class="query-type-div">
+                            <span>Query Type</span>
+                            <div class="query-type">
+                                <div class="type" id="general-enquiry-div">
+                                    <input
+                                        type="radio"
+                                        name="query-type"
+                                        id="general-enquiry"
+                                        class="query-type"
+                                    />
+                                    <label for="general-enquiry"
+                                        >General Enquiry</label
+                                    >
+                                </div>
+                                <div class="type" id="support-request-div">
+                                    <input
+                                        type="radio"
+                                        name="query-type"
+                                        id="support-request"
+                                        class="query-type"
+                                    />
+                                    <label for="support-request"
+                                        >Support Request</label
+                                    >
+                                </div>
+                            </div>
+                            <span class="warn" id="query-type-warn"
+                                >Please select a query type</span
+                            >
+                        </div>
+                    </div>
+                    <div class="message-div">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                        <label for="message" class="warn" id="message-warn"
+                            >This field is required</label
+                        >
+                    </div>
+                    <div class="terms-div">
+                        <div>
+                            <input type="checkbox" name="terms" id="terms" />
+                            <label for="terms"
+                                >I consent to being contacted by the team</label
+                            >
+                        </div>
+                        <div>
+                            <label for="terms" class="warn" id="terms-warn"
+                                >This field is required</label
+                            >
+                        </div>
+                    </div>
+                    <div class="submit-div">
+                        <button
+                            type="submit"
+                            class="submit-button"
+                            id="submit-button"
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

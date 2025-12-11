@@ -11,6 +11,7 @@ Challenges help you improve your skills!
 
 <details>
 <summary> List of challenges </summary>
+
 | Number | Name | Live preview |
 | - | - | - |
 |1| Recipe Page | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/recipe-page/) |

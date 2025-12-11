@@ -9,7 +9,8 @@ Challenges help you improve your skills!
 🤔When you face challenges, you learn more and become better at what you do.
 🌟It's a great way to grow and gain confidences😊
 
-## List of challenges
+<details>
+<summary> List of challenges </summary>
 | Number | Name | Live preview |
 | - | - | - |
 |1| Recipe Page | [Live preview](https://amirhirx.github.io/frontendmentor-challenges/recipe-page/) |
@@ -28,3 +29,4 @@ Challenges help you improve your skills!
 |14 | Stats Preview Card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/stats-preview-card) |
 |15 | Ping coming soon page | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/ping-coming-soon-page) |
 |16 | Contact form | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/contact-form) |
+</details>

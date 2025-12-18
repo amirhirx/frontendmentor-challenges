@@ -4,10 +4,6 @@
 
 Here are front-end challenges from [Frontendmentor.io](https://frontendmentor.io)👨‍💻
 
-Challenges help you improve your skills!
-💪They make you try new things and think in different ways.
-🤔When you face challenges, you learn more and become better at what you do.
-🌟It's a great way to grow and gain confidences😊
 
 <details>
 <summary> List of challenges </summary>

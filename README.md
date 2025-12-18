@@ -5,8 +5,8 @@
 Here are front-end challenges from [Frontendmentor.io](https://frontendmentor.io)👨‍💻
 
 
-<details>
-<summary> List of challenges </summary>
+
+### List of challenges
 
 | Number | Name | Live preview |
 | - | - | - |
@@ -26,4 +26,4 @@ Here are front-end challenges from [Frontendmentor.io](https://frontendmentor.io
 |14 | Stats Preview Card | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/stats-preview-card) |
 |15 | Ping coming soon page | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/ping-coming-soon-page) |
 |16 | Contact form | [Live Preview](https://amirhirx.github.io/frontendmentor-challenges/contact-form) |
-</details>
+
